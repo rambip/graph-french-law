@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <p>Legal Entity Recognition in the graph of French Law</p>
+    <p>Antonin PERONNET</p>
+    <h2>Contexte: la loi en tant que structure de données</h2>
+    <div>
+      <ul>
+        <li>Manque de contraintes</li>
+        <li>Recherche difficile</li>
+      </ul>
+    </div>
+    <h2>La solution: une ontologie</h2>
+    <h2>Des difficultés liées au domaine</h2>
+    <h2>Définition</h2>
+    <table>
+      <tr>
+        <td colspan="3">une <em>Entité Légale</em> est un concept:</td>
+      </tr>
+      <tr>
+        <td><strong>Précis</strong></td>
+        <td><strong>Remplaçable</strong></td>
+        <td><strong>Informatif</strong></td>
+      </tr>
+      <tr>
+        <td>forme cannonique,<br>sous forme de groupe nominal</td>
+        <td>Par une autre entité,<br>en gardant une phrase qui a du sens</td>
+        <td>Permet a un juriste<br>de retrouver facilement un article</td>
+      </tr>
+      <tr>
+        <td>✗ organisme concerné par<br>✓ organisme militaire</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <h2>Contribution 1: Formalisme</h2>
+    <p>Mesure de l'information contenue dans une collection d'entités:</p>
+    <h2>Contribution 2: Algorithme</h2>
+    <div></div>
+    <p>⇩</p>
+    <p>⇩</p>
+    <p>graphe de dépendances</p>
+    <h2>Contribution 2: Algorithme (cont.)</h2>
+    <p>⇩</p>
+    <p>⇩</p>
+    <p>Recuit simulé</p>
+    <h2>Contribution 3: Benchmark et Evaluation</h2>
+    <h2>Contribution 3: Benchmark et Evaluation</h2>
+    <h2>Contribution 3: Benchmark et Evaluation (cont.)</h2>
+    <h2>Conclusion</h2>
+    <h2>Bilan d'experience</h2>
+    <div>
+      <ol>
+        <li>choisir la tâche en fonction des jeux de données disponibles</li>
+        <li>ne pas être trop ambitieux</li>
+        <li>explorer, formaliser, puis implémenter</li>
+        <li>ne pas complexifier l'approche tant qu'on ne sait pas l'évaluer</li>
+      </ol>
+    </div>
+    <h2>Annexe: TF-IDF</h2>
+    <h2>Annexe: Derivation for subtrees</h2>
+    <p>We define . This set corresponds to all occurrences appearing in the subtrees of selected entities. Removing  from the tree means removing all information from the elements in </p>
+    <p>Finally, we can express  as , which gives the claimed result.</p>
+    <h2>Annexe: entités</h2>
+    <table>
+      <tr>
+        <td><strong>Entities</strong></td>
+      </tr>
+      <tr>
+        <td><span style="display: inline-block;">transparence , à la lutte contre la corruption et à la modernisation de la vie économique (12)</span> <span style="display: inline-block;">garde des sceaux , ministre de la justice (18)</span> <span style="display: inline-block;">code de l' organisation judiciaire (13)</span> <span style="display: inline-block;">Conseil supérieur de la prud'homie (19)</span> <span style="display: inline-block;">Cour de cassation (21)</span> <span style="display: inline-block;">conseil de prud'hommes (214)</span> <span style="display: inline-block;">conseillers prud'hommes (88)</span> <span style="display: inline-block;">chambre (37)</span> <span style="display: inline-block;">audience (63)</span> <span style="display: inline-block;">vice-président (59)</span> <span style="display: inline-block;">jugement (142)</span> <span style="display: inline-block;">référé (45)</span> <span style="display: inline-block;">greffe (106)</span> <span style="display: inline-block;">prud'hommes (472)</span></td>
+      </tr>
+      <tr>
+        <td><span style="display: inline-block;">groupe d' entreprises de dimension communautaire (41)</span> <span style="display: inline-block;">comité de la société européenne (44)</span> <span style="display: inline-block;">groupe spécial de négociation (125)</span> <span style="display: inline-block;">société coopérative européenne (55)</span> <span style="display: inline-block;">établissement concerné (41)</span> <span style="display: inline-block;">participation des salariés (34)</span> <span style="display: inline-block;">société européenne (119)</span> <span style="display: inline-block;">sociétés participantes (32)</span> <span style="display: inline-block;">élus (39)</span> <span style="display: inline-block;">filiale (95)</span> <span style="display: inline-block;">négociation (347)</span> <span style="display: inline-block;">membres (262)</span></td>
+      </tr>
+      <tr>
+        <td><span style="display: inline-block;">Commission nationale de l' informatique et des libertés (27)</span> <span style="display: inline-block;">amende de 3 750 Euros (187)</span> <span style="display: inline-block;">contraventions de la cinquième classe (68)</span> <span style="display: inline-block;">procureur de la République (27)</span> <span style="display: inline-block;">Euros (344)</span> <span style="display: inline-block;">code pénal (122)</span> <span style="display: inline-block;">manquement (65)</span> <span style="display: inline-block;">amende de (119)</span> <span style="display: inline-block;">infraction (86)</span> <span style="display: inline-block;">internet (99)</span></td>
+      </tr>
+      <tr>
+        <td><span style="display: inline-block;">délégation du personnel du comité social et économique interentreprises (9)</span> <span style="display: inline-block;">plan d' épargne d' entreprise (51)</span> <span style="display: inline-block;">code monétaire et financier (47)</span> <span style="display: inline-block;">compte épargne temps (22)</span> <span style="display: inline-block;">retraite collectif (43)</span> <span style="display: inline-block;">épargne salariale (47)</span> <span style="display: inline-block;">plan (104)</span> <span style="display: inline-block;">placement (104)</span> <span style="display: inline-block;">épargne (158)</span> <span style="display: inline-block;">interentreprises (125)</span></td>
+      </tr>
+      <tr>
+        <td><span style="display: inline-block;">sécurité et de protection de la santé (24)</span> <span style="display: inline-block;">bâtiment ou de génie civil (35)</span> <span style="display: inline-block;">donneur d' ordre (63)</span> <span style="display: inline-block;">coordination (63)</span> <span style="display: inline-block;">amiante (43)</span> <span style="display: inline-block;">ouvrage (202)</span> <span style="display: inline-block;">bâtiment (48)</span> <span style="display: inline-block;">chantier (165)</span></td>
+      </tr>
+      <tr>
+        <td><span style="display: inline-block;">nombre de votants (28)</span> <span style="display: inline-block;">bureau du vote (42)</span> <span style="display: inline-block;">opérations de vote (41)</span> <span style="display: inline-block;">sauvegarde (35)</span> <span style="display: inline-block;">scrutins (75)</span> <span style="display: inline-block;">vote (206)</span> <span style="display: inline-block;">électeurs (63)</span></td>
+      </tr>
+      <tr>
+        <td><span style="display: inline-block;">commission des droits et de l' autonomie des personnes handicapées (15)</span> <span style="display: inline-block;">fonds de développement pour l' insertion professionnelle des handicapés (16)</span> <span style="display: inline-block;">bénéficiaires de l' obligation d' emploi (19)</span> <span style="display: inline-block;">situation de handicap (40)</span> <span style="display: inline-block;">fonction publique (35)</span> <span style="display: inline-block;">personnes handicapées (89)</span> <span style="display: inline-block;">handicap (103)</span></td>
+      </tr>
+    </table>
+  </body>
+</html>
